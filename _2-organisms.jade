@@ -1,0 +1,42 @@
+mixin o_taggedPostsListing(strTag)
+	.article-listing
+		for post, slug in public.blog._data
+			unless post.excludeFromLists
+				if post.tags.indexOf(strTag) >= 0
+					+o_postSummary(post, slug, current.path[0])
+
+mixin o_postSummary(_post, _slug, _path)
+	article(itemscope, itemtype="http://schema.org/BlogPosting")
+		header
+			h2.article-title: a(href="/#{ _path }/#{ _slug }#{ fileType }", itemprop="name")= _post.title
+		.article-deck-body
+			p.text-muted.article-metadata: small
+				+a_datePublished(_post.date)
+				| &nbsp;&middot;&nbsp;
+				span(itemprop="author")
+					each author, a in _post.authors
+						= author
+						unless a == _post.authors.length-1
+							| ,&nbsp;
+
+			p(itemprop="description")= _post.deck
+				| &nbsp;
+				a(href="/#{ _path }/#{ _slug }#{ fileType }", title="Read #{ _post.title }") Read &raquo;
+
+mixin o_postSummaryQuiet(_post, _slug, _path)
+	article(itemscope, itemtype="http://schema.org/BlogPosting")
+		header
+			h3.article-title: a(href="/#{ _path }/#{ _slug }#{ fileType }", itemprop="name")= _post.title
+		.article-deck-body
+			p.text-muted.article-metadata: small
+				+a_datePublished(_post.date)
+				| &nbsp;&middot;&nbsp;
+				span(itemprop="author")
+					each author, a in _post.authors
+						= author
+						unless a == _post.authors.length-1
+							| ,&nbsp;
+
+			p(itemprop="description")= _post.deck
+				| &nbsp;
+				a(href="/#{ _path }/#{ _slug }#{ fileType }", title="Read #{ _post.title }") Read &raquo;

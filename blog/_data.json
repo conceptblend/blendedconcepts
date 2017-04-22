@@ -1,0 +1,151 @@
+{
+	"_template" : {
+		"excludeFromLists" : true,
+		"title" : "<65 chars for good SEO",
+		"deck" : "<200 chars for social sharing",
+		"date" : "yyyy-MM-dd",
+		"imageURL" : "",
+		"tags": [""],
+		"editors_note" : "",
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "comma,separated",
+			"message" : "<65 chars"
+		}
+	},
+	"facebook-reactions-from-conception-to-release" : {
+		"title" : "Facebook Reactions: the path from conception to release",
+		"deck" : "Geoff Teehan shares the story of how Facebook developed Reactions!",
+		"date" : "2016-02-27",
+		"imageURL" : "http://d.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2016/02/3057113-poster-p-2-facebooks-product-design-director-explains-one-of-its-biggest-ux-changes-in-years.jpg",
+		"tags": ["user experience"],
+		"editors_note" : "This is a brief reflection on an article posted on fastcodesign.com",
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "ux,prototyping,research",
+			"message" : "Geoff Teehan shares the story of how Facebook developed Reactions!"
+		}
+	},
+	"week-of-jan-11-2016" : {
+		"title" : "Collected articles - Week of Jan 11, 2016",
+		"deck" : "Collected articles from around the web on: design principles and prototyping.",
+		"date" : "2016-01-17",
+		"imageURL" : "http://www.firstworddesign.com/assets/img/collected-articles/to-read.png",
+		"tags": ["collected articles"],
+		"editors_note" : "",
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "toread, ux",
+			"message" : "Collected articles - Week of Jan 11, 2016"
+		}
+	},
+	"week-of-jan-4-2016" : {
+		"title" : "Collected articles - Week of Jan 4, 2016",
+		"deck" : "Collected articles from around the web on: scrolling behaviour, eloquent javascript, change leadership, design jobs of the future, and simulating complexity.",
+		"date" : "2016-01-09",
+		"imageURL" : "http://www.firstworddesign.com/assets/img/collected-articles/to-read.png",
+		"tags": ["collected articles"],
+		"editors_note" : "",
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "toread",
+			"message" : "Collected articles - Week of Jan 4, 2016"
+		}
+	},
+	"classification-of-search-queries" : {
+		"title" : "What search queries reveal about user intent",
+		"deck" : "Notes on my introductory research into how to classify search queries based on informational, navigational, and transactional intent.",
+		"date" : "2015-10-08",
+		"imageURL" : "http://www.firstworddesign.com/assets/img/search-queries/search-query-types.png",
+		"tags": ["content strategy","information architecture", "user experience"],
+		"editors_note" : "",
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "search,ux,ia",
+			"message" : "What search queries reveal about user intent."
+		}
+	},
+	"content-jobs" : {
+		"title" : "Get clear on purpose with content 'jobs'",
+		"subtitle": "Better language for describing the role of content in your web strategy.",
+		"deck" : "Every piece of content you create for your website has a job to do. Content that doesn't have a clear job should either get one or get out.",
+		"imageURL" : "http://www.firstworddesign.com/assets/img/content-jobs/content-jobs-social.png?v=2",
+		"date" : "2015-09-19",
+		"tags": ["content strategy"],
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "cs,ux",
+			"message" : "Content 'jobs': better language for describing the role of content in your web strategy."
+		}
+	},
+	"abandoning-google-inbox" : {
+		"title" : "Why I'm abandoning Google Inbox",
+		"deck" : "I am abandoning Google Inbox because it fails to meet basic expectations for an email application. It's been over 2 months since I started using Google Inbox and I've had enough. I've missed a number of important messages and I don't want to miss any more.",
+		"imageURL" : "http://www.firstworddesign.com/assets/img/abandoning-google-inbox/inbox-header.png",
+		"date" : "2015-02-21",
+		"tags": ["information architecture"],
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "ia,ux,inbox",
+			"message" : "Why I'm abandoning Google Inbox."
+		}
+	},
+	"guardian-responsive-navigation" : {
+		"title" : "The Guardian: responsive navigation we can learn from",
+		"deck" : "The Guardian's recent website re-design implements some (responsive) navigation design patterns that we can all learn from.",
+		"imageURL" : "http://www.firstworddesign.com/assets/img/guardian/1-art-n-design-article.png",
+		"date" : "2014-12-22",
+		"tags": ["information architecture"],
+		"editors_note" : "Updated the article with comparisons to other news-sites. (Dec. 23, 2014)",
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "ia,ux,navigation",
+			"message" : "The Guardian: responsive navigation we can learn from."
+		}
+	},
+	"ux-debt" : {
+		"title" : "User Experience Debt",
+		"subtitle" : "Creating awareness and acting on missed opportunities",
+		"deck" : "UX debt is real and every digital product has some to repay. Some of this debt is incurred intentionally because tough decisions have to be made. Some of this debt is incurred unintentionally because assumptions about end-users go unchecked. It's time to start paying attention to the I.O.U.'s we're writing to our users.",
+		"imageURL" : "http://farm8.staticflickr.com/7287/8715916524_144a3243a8.jpg",
+		"date" : "2013-05-07",
+		"tags": ["user experience"],
+		"editors_note" : "This article was originally published on http://nform.com",
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "uxdebt,ux,debt",
+			"message" : "UX Debt: Creating awareness and acting on missed opportunities."
+		}
+	},
+	"when-to-apply-ux-effort-in-agile" : {
+		"title" : "When to apply UX effort in agile",
+		"deck" : "When should you apply UX effort on an agile project to get the most out of it? Well, UX design skills are most valuable to agile processes at three key points: during modeling, during evaluation, and for facilitating day-to-day design activities.",
+		"imageURL" : "https://farm9.staticflickr.com/8506/8494392743_2bc86b4025_z.jpg",
+		"date" : "2013-02-21",
+		"tags": ["user experience"],
+		"editors_note" : "This article was originally published on http://nform.com",
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "agile,ux",
+			"message" : "When to apply UX effort in agile."
+		}
+	},
+	"information-architecture" : {
+		"excludeFromLists" : true,
+		"title" : "Information Architecture posts"
+	},
+	"content-strategy" : {
+		"excludeFromLists" : true,
+		"title" : "Content Strategy posts"
+	}
+}
