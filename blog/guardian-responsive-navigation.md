@@ -1,4 +1,4 @@
-!["TheGuardian"](../assets/img/guardian/1-art-n-design-article.png "TheGuardian")
+!["TheGuardian"](../assets/img/guardian/1-art-n-design-article.png "The Guardian")
 
 Designing good navigation is hard. Often there is a complex hierarchy at play with many sections and many levels. The information architect's goal is to hide the complexity.
 

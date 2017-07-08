@@ -14,6 +14,20 @@
 			"message" : "<65 chars"
 		}
 	},
+	"week-of-jun-10-2017" : {
+		"title" : "Collected articles - Week of Jun 10, 2017",
+		"deck" : "Empathy, bots, and the future of designing with algorithms.",
+		"imageURL" : "http://www.firstworddesign.com/assets/img/dominos-anyware/dominos-anyware-large.jpg",
+		"date" : "2017-06-10",
+		"tags": ["collected articles"],
+		"editors_note" : "",
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "empathy,ixd,bots,ai,algorithm",
+			"message" : "Collected articles - Week of Jun 10, 2017"
+		}
+	},
 	"facebook-reactions-from-conception-to-release" : {
 		"title" : "Facebook Reactions: the path from conception to release",
 		"deck" : "Geoff Teehan shares the story of how Facebook developed Reactions!",

@@ -46,33 +46,12 @@ html(prefix="og: http://ogp.me/ns#", lang="en-CA", dir="ltr")
 				(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-N8PJ4S');
 			//-- End Google Tag Manager --
 
-		//-if analytics.trackingCode
-			script.
-				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-				ga('create', '#{ analytics.trackingCode }', 'auto');
-				ga('send', 'pageview');
-
-		//-nav.navbar.navbar-default.navbar-fixed-top
-			.container-fluid
-				.navbar-header
-					button.navbar-toggle(type="button", data-toggle="collapse", data-target="navbar-collpase")
-						span.sr-only Toggle navigation
-						span.icon-bar
-						span.icon-bar
-						span.icon-bar
-					a.navbar-brand(href="#") Home
-				.navbar-collapse.collapse				
-					ul.nav.navbar-nav
-						li: a(href="#") one
 		.container-fluid#masthead
 			.col-sm-12.col-med-12.col-lg-12
 				a(href="/blog/")
 					h2 blendedConcepts
 					span &nbsp;&mdash;&nbsp;thoughts on user experience, information architecture, content modelling, and how we make sense of it all.&nbsp;
-					span.__on-hover ( View all articles )
+					span.__on-hover View all articles
 
 		.container-fluid.content-frame
 			block core
