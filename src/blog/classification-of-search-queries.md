@@ -11,7 +11,7 @@ The search process goes like this:
 
 People repeat this process until some need is met or abandoned.
 
-There are two important aspects of a search query: **intent** and **satisfaction**. The need or goal of a search query is expressed as intent and can be inferred based on the terms used and the structure of the query. Satisfaction comes when the goal, however small, is acheived.
+There are two important aspects of a search query: **intent** and **satisfaction**. The need or goal of a search query is expressed as intent and can be inferred based on the terms used and the structure of the query. Satisfaction comes when the goal, however small, is achieved.
 
 ## 3 types of search queries
 
