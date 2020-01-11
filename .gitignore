@@ -1,8 +1,10 @@
 # Node Modules
 node_modules
+package-lock.json
 
 # Generated files
 www
+dist
 .tmp
 .publish
 .DS_Store
