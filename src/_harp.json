@@ -2,15 +2,12 @@
 	"globals" : {
 		"siteName"	: "blendedConcepts",
 		"siteURL"	: "www.firstworddesign.com",
-		"analytics"	: {
-			"trackingCode"	: "UA-12926863-1"
-		},
 		"fileType"	: ".html",
 		"social" : {
 			"twitterHandle" : "andrewjwright",
 			"twitterRecommend" : "andrewjwright"
 		},
 		"tags" : [],
-		"debug" : true
+		"debug" : false
 	}
 }

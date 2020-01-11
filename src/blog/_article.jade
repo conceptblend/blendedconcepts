@@ -1,13 +1,9 @@
 extends ../_layout
 
 block core
-	//- Facebook
-	//-#fb-root
-	//-script (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
 	//- if twitter
-	script !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+	//-script !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 
-	
 	article(itemscope, itemtype="http://schema.org/BlogPosting")
 		//-+a_standardRow.welcome-mat
 			br
@@ -37,14 +33,14 @@ block core
 						span(itemprop="keywords")
 							each tag, t in tags
 								- var urlSlug = tag.replace(" ", "-")
-								a(href="/blog/#{ urlSlug }#{ fileType }", title="All posts tagged with #{tag}")= tag
+								a(href="/blog/tag/#{ urlSlug }#{ fileType }", title="All posts tagged with #{tag}")= tag
 
 								unless t == tags.length-1
 									| ,&nbsp;
 				br
-				// SOCIAL TOOLS
-				+m_socialSharing("http://"+ siteURL +"/" + current.path.join('/') + fileType)
-				br
+				//- SOCIAL TOOLS
+				//-+m_socialSharing("http://"+ siteURL +"/" + current.path.join('/') + fileType)
+				//-br
 
 			// DECK
 			if deck
@@ -57,14 +53,13 @@ block core
 					em Editor's note:&nbsp;
 					= editors_note
 
-
 		+a_standardRow
 			// BODY
 			.article-body(itemprop="articleBody")
 				!= yield
-				// SOCIAL TOOLS
-				br
-				+m_socialSharing_left("http://"+ siteURL +"/" + current.path.join('/') + fileType)
+				//- SOCIAL TOOLS
+				//-br
+				//-+m_socialSharing_left("http://"+ siteURL +"/" + current.path.join('/') + fileType)
 
 	- var articles = Object.keys(public.blog._data);
 	- var pos = articles.indexOf(current.source);
@@ -73,19 +68,11 @@ block core
 	- while (next < articles.length && !!public.blog._data[articles[next]].excludeFromLists) { ++next; }
 
 	+a_standardRow
-		h4 Read next
-	if (prev >= 0)
-		+a_standardRow
-			hr
+		hr
+		h4 Keep reading
+		if (prev >= 0)
 			+o_postSummaryQuiet(public.blog._data[articles[prev]], articles[prev], current.path[0])
-	if (next < articles.length)
-		+a_standardRow
-			hr
+		if (next < articles.length)
 			+o_postSummaryQuiet(public.blog._data[articles[next]], articles[next], current.path[0])
-
-	+a_standardRow
 		br
 		a.btn.btn-default(href="/blog/") &larr;&nbsp;All articles
-	
-	//- Google+
-	//-script (function() {var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true; po.src = 'https://apis.google.com/js/platform.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s); })();

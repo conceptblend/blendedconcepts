@@ -14,10 +14,24 @@
 			"message" : "<65 chars"
 		}
 	},
+	"content-strategy-principles" : {
+		"title" : "4 principles for great content",
+		"deck" : "Use these principles to guide your creation of great web content.",
+		"date" : "2020-01-11",
+		"imageURL" : "",
+		"tags": ["content strategy"],
+		"editors_note" : "",
+		"authors" : ["Andrew J Wright"],
+		"layout" : "_article",
+		"twitter" : {
+			"hashtags" : "cs,content strategy,ux,content writing",
+			"message" : "Use these 4 principles to guide your creation of great web content."
+		}
+	},
 	"week-of-jun-10-2017" : {
 		"title" : "Collected articles - Week of Jun 10, 2017",
 		"deck" : "Empathy, bots, and the future of designing with algorithms.",
-		"imageURL" : "http://www.firstworddesign.com/assets/img/dominos-anyware/dominos-anyware-large.jpg",
+		"imageURL" : "https://www.firstworddesign.com/assets/img/dominos-anyware/dominos-anyware-large.jpg",
 		"date" : "2017-06-10",
 		"tags": ["collected articles"],
 		"editors_note" : "",
@@ -46,7 +60,7 @@
 		"title" : "Collected articles - Week of Jan 11, 2016",
 		"deck" : "Collected articles from around the web on: design principles and prototyping.",
 		"date" : "2016-01-17",
-		"imageURL" : "http://www.firstworddesign.com/assets/img/collected-articles/to-read.png",
+		"imageURL" : "https://www.firstworddesign.com/assets/img/collected-articles/to-read.png",
 		"tags": ["collected articles"],
 		"editors_note" : "",
 		"authors" : ["Andrew J Wright"],
@@ -60,7 +74,7 @@
 		"title" : "Collected articles - Week of Jan 4, 2016",
 		"deck" : "Collected articles from around the web on: scrolling behaviour, eloquent javascript, change leadership, design jobs of the future, and simulating complexity.",
 		"date" : "2016-01-09",
-		"imageURL" : "http://www.firstworddesign.com/assets/img/collected-articles/to-read.png",
+		"imageURL" : "https://www.firstworddesign.com/assets/img/collected-articles/to-read.png",
 		"tags": ["collected articles"],
 		"editors_note" : "",
 		"authors" : ["Andrew J Wright"],
@@ -74,7 +88,7 @@
 		"title" : "What search queries reveal about user intent",
 		"deck" : "Notes on my introductory research into how to classify search queries based on informational, navigational, and transactional intent.",
 		"date" : "2015-10-08",
-		"imageURL" : "http://www.firstworddesign.com/assets/img/search-queries/search-query-types.png",
+		"imageURL" : "https://www.firstworddesign.com/assets/img/search-queries/search-query-types.png",
 		"tags": ["content strategy","information architecture", "user experience"],
 		"editors_note" : "",
 		"authors" : ["Andrew J Wright"],
@@ -88,7 +102,7 @@
 		"title" : "Get clear on purpose with content 'jobs'",
 		"subtitle": "Better language for describing the role of content in your web strategy.",
 		"deck" : "Every piece of content you create for your website has a job to do. Content that doesn't have a clear job should either get one or get out.",
-		"imageURL" : "http://www.firstworddesign.com/assets/img/content-jobs/content-jobs-social.png?v=2",
+		"imageURL" : "https://www.firstworddesign.com/assets/img/content-jobs/content-jobs-social.png?v=2",
 		"date" : "2015-09-19",
 		"tags": ["content strategy"],
 		"authors" : ["Andrew J Wright"],
@@ -101,7 +115,7 @@
 	"abandoning-google-inbox" : {
 		"title" : "Why I'm abandoning Google Inbox",
 		"deck" : "I am abandoning Google Inbox because it fails to meet basic expectations for an email application. It's been over 2 months since I started using Google Inbox and I've had enough. I've missed a number of important messages and I don't want to miss any more.",
-		"imageURL" : "http://www.firstworddesign.com/assets/img/abandoning-google-inbox/inbox-header.png",
+		"imageURL" : "https://www.firstworddesign.com/assets/img/abandoning-google-inbox/inbox-header.png",
 		"date" : "2015-02-21",
 		"tags": ["information architecture"],
 		"authors" : ["Andrew J Wright"],
@@ -114,7 +128,7 @@
 	"guardian-responsive-navigation" : {
 		"title" : "The Guardian: responsive navigation we can learn from",
 		"deck" : "The Guardian's recent website re-design implements some (responsive) navigation design patterns that we can all learn from.",
-		"imageURL" : "http://www.firstworddesign.com/assets/img/guardian/1-art-n-design-article.png",
+		"imageURL" : "https://www.firstworddesign.com/assets/img/guardian/1-art-n-design-article.png",
 		"date" : "2014-12-22",
 		"tags": ["information architecture"],
 		"editors_note" : "Updated the article with comparisons to other news-sites. (Dec. 23, 2014)",

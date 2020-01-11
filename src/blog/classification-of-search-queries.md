@@ -53,8 +53,5 @@ To get more clarity about user intent, we can compare search phrases with the su
 	- **Other** (T,R,O) – I want a resource that appears somewhere other than in the the title, summary, or URL of a result.
 - **Interact** (T,I) – I want to interact with a specifc resource or program.
 
-<cite>
-Hierarchy adapted from [Determining the informational, navigational, and transactional intent of Web queries (2007)](https://faculty.ist.psu.edu/jjansen/academic/pubs/jansen_user_intent.pdf)
-</cite>
-
+<cite>Hierarchy adapted from: [Determining the informational, navigational, and transactional intent of Web queries (2007)](https://faculty.ist.psu.edu/jjansen/academic/pubs/jansen_user_intent.pdf)</cite>
 <cite>Additional source: [Query classification; understanding user intent](http://vervedevelopments.com/Blog/query-classification-understanding-user-intent.html)</cite>

@@ -11,14 +11,6 @@ mixin m_socialSharing(_path)
 			else
 				a.twitter-share-button(href="https://twitter.com/share", data-url="#{ _path }", data-via="#{ social.twitterHandle }", data-related="#{ social.twitterRecommend }", data-text="#{ title }") Tweet
 
-		//- Facebook
-		//- .social-container
-			div.fb-share-button(data-href="#{ _path }", data-layout="button_count", data-width="125")
-
-		//- Google+
-		//- .social-container
-			div.g-plus(data-action="share", data-annotation="bubble", data-href="#{ _path }")
-
 mixin m_socialSharing_left(_path)
 	//- script function gaShareEvent(source) { ga('send', 'event', 'share', 'click', source || '(not set)', { 'page' : '/#{ _path }'});	}
 	.social-verb.text-muted
@@ -29,11 +21,3 @@ mixin m_socialSharing_left(_path)
 			a.twitter-share-button(href="https://twitter.com/share", data-url="#{ _path }", data-via="#{ social.twitterHandle }", data-related="#{ social.twitterRecommend }", data-text="#{ twitter.message }", data-hashtags="#{ twitter.hashtags }") Tweet
 		else
 			a.twitter-share-button(href="https://twitter.com/share", data-url="#{ _path }", data-via="#{ social.twitterHandle }", data-related="#{ social.twitterRecommend }", data-text="#{ title }") Tweet
-
-	//- Facebook
-	//- .social-container
-		div.fb-share-button(data-href="#{ _path }", data-layout="button_count", data-width="125")
-
-	//- Google+
-	//- .social-container
-		div.g-plus(data-action="share", data-annotation="bubble", data-href="#{ _path }")

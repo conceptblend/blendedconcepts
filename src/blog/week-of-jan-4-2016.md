@@ -29,8 +29,6 @@ Honestly, the "scroll indicators" like down arrows and buttons seem like an inte
 
 _By **Marijn Haverbeke**_
 
-![Eloquent Javascript book cover](http://eloquentjavascript.net/img/cover.png)
-
 Do you write javascript? Do you want to be better? Read this book. [Buy it](http://www.amazon.com/gp/product/1593275846/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=1593275846&linkCode=as2&tag=marijhaver-20&linkId=VPXXXSRYC5COG5R5) | [Online (free)](http://eloquentjavascript.net/index.html).
 
 I finally understand `map()` and `reduce()` now. :)

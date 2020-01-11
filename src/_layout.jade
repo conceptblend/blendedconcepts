@@ -15,7 +15,7 @@ html(prefix="og: http://ogp.me/ns#", lang="en-CA", dir="ltr")
 
 		meta(property="og:title", content="#{ title ? title : siteName }")
 		meta(property="og:site_name", content="#{ siteName }")
-		meta(property="og:url", content="http://#{ siteURL }/#{ current.path.join('/') }#{ fileType }")
+		meta(property="og:url", content="https://#{ siteURL }/#{ current.path.join('/') }#{ fileType }")
 		meta(property="og:type", content="article")
 		if (description || deck)
 			meta(property="og:description", content="#{ description ? description : deck ? deck : '' }")
@@ -24,17 +24,15 @@ html(prefix="og: http://ogp.me/ns#", lang="en-CA", dir="ltr")
 			meta(name="twitter:card", content="summary_large_image")
 
 		meta(name="twitter:site", content="@andrewjwright")
-		meta(name="twitter:url", content="http://#{ siteURL }/#{ current.path.join('/') }#{ fileType }")
+		meta(name="twitter:url", content="https://#{ siteURL }/#{ current.path.join('/') }#{ fileType }")
 		//- No need to repeat because they'll be acquired from the og: properties.
 		//-meta(name="twitter:title", content="#{ title ? title : 'blendConcepts'}")
 		//-meta(name="twitter:description", content="#{ description ? description : deck ? deck : '' }")
 		//-if imageURL
 			meta(name="twitter:image", content="#{ imageURL }")
 
-		link(rel="stylesheet", href="/assets/css/bootstrap.css")
+		link(rel="stylesheet", href="/assets/css/bootstrap.min.css")
 		link(rel="stylesheet", href="/assets/css/main.css")
-		script(type="text/javascript", src="/assets/js/jquery-1.11.0.min.js")
-		script(type="text/javascript", src="/assets/js/bootstrap.min.js")
 	body
 		if !debug
 			//-- Google Tag Manager --
