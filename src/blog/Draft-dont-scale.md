@@ -15,7 +15,7 @@ Why manual recruiting? Why not marketing?
 --> to get close to the customer, build a relationship, and learn?
 
 * Stripe: "collision installation"
-* Compound growth: grow your 10% customer base every week
+* Don't underestimate the power of **Compound growth**.: Grow your 10% customer base every week and see how it adds up.
 
 
 
